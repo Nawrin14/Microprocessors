@@ -15,7 +15,7 @@ START:
 
     MOV AL, 080H 
     OUT 1FH, AL
-    MOV AL, FFH
+    MOV AL, 0FFH
     OUT 19H, AL 
 
     TOP1: 
